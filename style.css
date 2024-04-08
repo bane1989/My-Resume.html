@@ -1,0 +1,149 @@
+
+h1 {
+    color: #BBE1FA;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+  }
+
+h2 {
+    color: #0F4C75;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+
+}
+
+.title {
+    background-color: #1B262C;
+}
+
+body {
+    background-color: #BBE1FA;
+}
+
+hr {
+        border: dotted #1B262C 6px;
+        border-bottom: none;
+        width: 4%;
+        margin: 100px auto;
+}
+
+
+.title p {
+    color: #BBE1FA;
+    font-family: "Gudea", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.features p {
+    color: #0F4C75;
+    font-family: "Gudea", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    width: 37%;
+}
+
+.features img {
+    width: 170px;
+    border-radius: 50%;
+}
+
+
+.features {
+    width: 75%;
+    margin: auto;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.parent p {
+    color: #0F4C75;
+    font-family: "Gudea", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container p {
+    color: #0F4C75;
+    font-family: "Gudea", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.px-3 {
+    justify-content: center;
+    text-align: center;
+}
+
+.px-3 p {
+    color: #0F4C75;
+    font-family: "Gudea", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    width: 60%;
+}
+
+.btn {
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: "Londrina Solid", sans-serif;
+    color: #0F4C75;
+}
+
+.footer {
+    background-color: #1B262C;
+}
+
+.bottom-container {
+    background-color: #1B262C;
+}
+
+.copyright {
+    color: #BBE1FA;
+    font-family: "Gudea", sans-serif;
+    font-size: 0.7em;
+}
+
+.bottom-container a{
+    color: #3282B8;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BBE1FA;
+  }
+
+.btn:hover {
+    background-color: #0F4C75; 
+    color: #BBE1FA; 
+  }
+
+.here {
+    color: white;
+    text-decoration: none;
+}
+
+.here:hover {
+    color: #0F4C75;
+}
+
+@media (max-width: 600px){
+    .features p {
+        color: #0F4C75;
+        font-family: "Gudea", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: auto;
+        width: 100%;
+    }
+}
